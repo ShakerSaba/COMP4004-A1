@@ -1,4 +1,4 @@
-package TestCases;
+package test_cases;
 
 import static org.junit.Assert.*;
 
@@ -12,7 +12,9 @@ public class AddItemTest {
 		try{
 			fail("Not yet implemented");
 		} catch (Exception e) {
-			fail("Not yet implemented");
+			fail("Exception occured");
+		} finally {
+			//
 		}
 	}
 
