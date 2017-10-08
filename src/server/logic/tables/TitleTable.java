@@ -62,6 +62,22 @@ public class TitleTable {
 		}
 		return result;
 	}
+	public boolean lookupTitle(String string) {
+		boolean result=true;
+		int flag=0;
+		for(int i=0;i<titleList.size();i++){
+			String title=titleList.get(i).getBooktitle();
+			if(title.equalsIgnoreCase(string)){
+				flag=flag+1;
+			}else{
+				flag=flag+0;	
+			}
+		}
+		if(flag==0){
+			result=false;
+		}
+		return result;
+	}
 	public Object delete(String string) {
 		String result="";
 		int index=0;

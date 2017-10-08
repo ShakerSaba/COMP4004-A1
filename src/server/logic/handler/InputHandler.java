@@ -20,6 +20,7 @@ public class InputHandler {
     public static final int PAYFINE=13;
     public static final int CLERKLOGIN=14;
     public static final int USERLOGIN=15;
+    public static final int FINDTITLE=16;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -93,18 +94,23 @@ public class InputHandler {
 	            	state=DELETEITEM;
 	            	oo.setOutput(output);
 		            oo.setState(state);
+	            }else if (input.equalsIgnoreCase("find title")) {
+	            	output = "Please Input Title to Search For:'title'";
+	            	state=FINDTITLE;
+	            	oo.setOutput(output);
+		            oo.setState(state);
 	            }else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	            }else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else{
-	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item.";
+	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -154,7 +160,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -172,7 +178,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -190,7 +196,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -208,7 +214,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -226,7 +232,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -244,7 +250,7 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item,Find Title.";
 	                state = CLERK;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -322,6 +328,24 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else{
 	        		o=outputHandler.payFine(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
+	        }else if(state==FINDTITLE){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
+	                state = CLERK;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.findTitle(input);
 	        		output=o.getOutput();
 	        		state=o.getState();
 	        		oo.setOutput(output);

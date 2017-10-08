@@ -69,6 +69,21 @@ public class OutputHandler {
         }
 		return output;
 	}
+	
+	public Output findTitle(String input) {
+		Output output=new Output("",0);
+		Object result="";
+
+    	result=TitleTable.getInstance().lookupTitle(input);
+    	if(result.equals(true)){
+    		output.setOutput("Success!");
+    	}else{
+    		output.setOutput("Cannot find this title!");
+    	}
+    	output.setState(CLERK);
+
+		return output;
+	}
 
 	public Output createItem(String input) {
 		Output output=new Output("",0);
