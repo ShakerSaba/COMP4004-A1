@@ -21,8 +21,8 @@ public class RemoveTitleTest {
 			TitleTable.getInstance().createtitle("1234567890001", "Test Title 2");
 			ItemTable.getInstance().createitem("1234567890001");
 			outHan.createUser("test@username,testpassword");
-			assertEquals("Delete an title.","Success!",outHan.deleteTitle("1234567890000").getOutput());
-			assertEquals("Borrow the only remaining copy","Success!",outHan.borrow("test@username,1234567890001,1").getOutput());
+			assertEquals("Delete a title.","Success!",outHan.deleteTitle("1234567890000").getOutput());
+			assertEquals("Borrow a copy","Success!",outHan.borrow("test@username,1234567890001,1").getOutput());
 			assertEquals("Fail due to copies being borrowed.","Active Loan Exists!",outHan.deleteTitle("1234567890001").getOutput());
 		} catch (Exception e) {
 			fail("Exception occured");

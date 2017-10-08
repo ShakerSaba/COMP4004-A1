@@ -284,6 +284,11 @@ public class OutputHandler {
 		return output;
 
 	}
+	
+	public Output collectFine(String input) {
+		Output output=new Output("",0);
+		return output;
+	}
 
 	public Output payFine(String input) {
 		Output output=new Output("",0);
