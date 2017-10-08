@@ -2093,4 +2093,7 @@
 @2017-10-08 15:23:28 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title];State:Success
 @2017-10-08 15:23:28 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
 @2017-10-08 15:23:28 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 15:32:10 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 15:32:10 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title];State:Success
+@2017-10-08 15:32:10 INFO  String:45 - Operation:Create New Title;Title Info:[1234567890000,Test Title];State:Fail;Reason:The ISBN already existed.
 @

@@ -86,7 +86,7 @@ public class OutputHandler {
         	if(result.equals(true)){
         		output.setOutput("Success!");
         	}else{
-        		output.setOutput("The Title Does Not Exists!");
+        		output.setOutput("The Title Does Not Exist! You must add the title first!");
         	}
         	output.setState(CLERK);
         }
