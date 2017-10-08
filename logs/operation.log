@@ -2096,4 +2096,10 @@
 @2017-10-08 15:32:10 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
 @2017-10-08 15:32:10 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title];State:Success
 @2017-10-08 15:32:10 INFO  String:45 - Operation:Create New Title;Title Info:[1234567890000,Test Title];State:Fail;Reason:The ISBN already existed.
+@2017-10-08 15:38:42 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 15:38:42 INFO  String:44 - Operation:Create New User;User Info:[test@username,testpassword];State:Success
+@2017-10-08 15:38:42 INFO  String:47 - Operation:Create New User;User Info:[test@username,testpassword];State:Fail;Reason:The User already existed.
+@2017-10-08 15:39:44 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 15:39:44 INFO  String:44 - Operation:Create New User;User Info:[test@username,testpassword];State:Success
+@2017-10-08 15:39:44 INFO  String:47 - Operation:Create New User;User Info:[test@username,testpassword];State:Fail;Reason:The User already existed.
 @
