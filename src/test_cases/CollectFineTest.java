@@ -16,8 +16,8 @@ public class CollectFineTest {
 		try{
 			OutputHandler outHan = new OutputHandler();
 			outHan.createUser("test@username,testpassword");
-			assertEquals("Apply $100.00 fine to collect from user","Success!",outHan.collectFine("test@username,100.00").getOutput());
-			assertEquals("Fail due to user not existing","The User Does Not Exist!",outHan.collectFine("nonexistant@username,100.00").getOutput());
+			assertEquals("Apply fine to collect from user","Success!",outHan.collectFine("test@username,500").getOutput());
+			assertEquals("Fail due to user not existing","The User Does Not Exist!",outHan.collectFine("nonexistant@username,500").getOutput());
 		} catch (Exception e) {
 			fail("Exception occured");
 		} finally {

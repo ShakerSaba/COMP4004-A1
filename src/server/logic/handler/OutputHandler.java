@@ -28,6 +28,7 @@ public class OutputHandler {
     public static final int CLERKLOGIN=14;
     public static final int USERLOGIN=15;
     public static final int FINDTITLE=16;
+    public static final int COLLECTFINE=17;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -287,6 +288,30 @@ public class OutputHandler {
 	
 	public Output collectFine(String input) {
 		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+        boolean email=strArray[0].contains("@");
+        int userid=UserTable.getInstance().lookup(strArray[0]);
+        boolean number=isInteger("1");
+        Object result="";
+        if(strArray.length!=2 || email!=true || number!=true){
+        	output.setOutput("Your input should in this format:'useremail,date'");
+        	output.setState(COLLECTFINE);
+        }else if(userid==-1){
+        	output.setOutput("The User Does Not Exist!");
+        	output.setState(COLLECTFINE);
+        }else{
+        	int fine = Integer.parseInt(strArray[1]);
+        	FeeTable.getInstance().applyfee(UserTable.getInstance().lookup(strArray[0]),Long.parseLong(strArray[1]));	
+        	result=FeeTable.getInstance().lookupfee(UserTable.getInstance().lookup(strArray[0]));
+        	if(result.equals(0)){
+        		output.setOutput("Fine not applied!");
+    		}else{
+        		output.setOutput("Success!");
+        	}
+    		output.setState(CLERK);
+    	}
+        	
 		return output;
 	}
 

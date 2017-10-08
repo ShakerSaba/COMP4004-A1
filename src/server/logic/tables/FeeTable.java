@@ -108,8 +108,6 @@ public class FeeTable {
 				logger.info(String.format("Operation:Apply OutStanding Fee;Fee Info:[%d,%d];State:Success", j,0));
 			}
 		}
-		
-		
 	}
 	public List<Fee> getFeeTable() {
 		return feeList;
