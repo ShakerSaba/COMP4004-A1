@@ -8,7 +8,7 @@ import server.logic.handler.OutputHandler;
 import server.logic.tables.ItemTable;
 import server.logic.tables.TitleTable;
 
-public class RemoveTitle {
+public class RemoveTitleTest {
 
 	@Test
 	public void test() throws Exception {
