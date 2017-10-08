@@ -15,8 +15,8 @@ public class FindItemTest {
 		try{
 			OutputHandler outHan = new OutputHandler();
 			
-			TitleTable.getInstance().createtitle("123456789000", "Test Title");
-			assertEquals("Try and get the test title.","Success!",outHan.findTitle("Test Title").getOutput());
+			TitleTable.getInstance().createtitle("1234567890000", "Test Title");
+			assertEquals("Try and get the test title.","Success!",outHan.findTitle("1234567890000").getOutput());
 		} catch (Exception e) {
 			fail("Exception occured");
 		} finally {

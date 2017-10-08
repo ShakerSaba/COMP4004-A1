@@ -27,6 +27,7 @@ public class OutputHandler {
     public static final int PAYFINE=13;
     public static final int CLERKLOGIN=14;
     public static final int USERLOGIN=15;
+    public static final int FINDTITLE=16;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -72,15 +73,23 @@ public class OutputHandler {
 	
 	public Output findTitle(String input) {
 		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+		boolean number=isInteger(strArray[0]);
 		Object result="";
-
-    	result=TitleTable.getInstance().lookupTitle(input);
-    	if(result.equals(true)){
-    		output.setOutput("Success!");
-    	}else{
-    		output.setOutput("Cannot find this title!");
-    	}
-    	output.setState(CLERK);
+    	result=TitleTable.getInstance().lookup(input);
+    	if(strArray.length!=1 || number!=true){
+        	output.setOutput("Your input should in this format:'ISBN',ISBN should be a 13-digit number");
+        	output.setState(FINDTITLE);
+        }else{
+        	result=ItemTable.getInstance().createitem(strArray[0]);
+        	if(result.equals(true)){
+        		output.setOutput("Success!");
+        	}else{
+        		output.setOutput("The Title Does Not Exists!");
+        	}
+        	output.setState(CLERK);
+        }
 
 		return output;
 	}
