@@ -76,7 +76,7 @@ public class FeeTable {
 		}
 		return fee;
 	}
-	public void applyfee(int j, long time) {
+	public long applyfee(int j, long time) {
 		int flag=0;
 		int index=0;
 		for(int i = 0;i<feeList.size();i++){
@@ -92,20 +92,24 @@ public class FeeTable {
 				feeList.get(index).setFee(a+feeList.get(index).getFee());
 				feeList.get(index).setUserid(j);
 				logger.info(String.format("Operation:Apply OutStanding Fee;Fee Info:[%d,%d];State:Success", j,a+feeList.get(index).getFee()));
+				return feeList.get(index).getFee();
 			}else{
 				feeList.get(index).setFee(feeList.get(index).getFee());
 				feeList.get(index).setUserid(j);
 				logger.info(String.format("Operation:Apply OutStanding Fee;Fee Info:[%d,%d];State:Success", j,a+feeList.get(index).getFee()));
+				return feeList.get(index).getFee();
 			}
 		}else{
 			if(a>=0){
 				Fee fee=new Fee(j,a);
 				feeList.add(fee);
 				logger.info(String.format("Operation:Apply OutStanding Fee;Fee Info:[%d,%d];State:Success", j,a));
+				return fee.getFee();
 			}else{
 				Fee fee=new Fee(j,0);
 				feeList.add(fee);
 				logger.info(String.format("Operation:Apply OutStanding Fee;Fee Info:[%d,%d];State:Success", j,0));
+				return fee.getFee();
 			}
 		}
 	}

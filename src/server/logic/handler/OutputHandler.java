@@ -292,23 +292,16 @@ public class OutputHandler {
         strArray = input.split(",");
         boolean email=strArray[0].contains("@");
         int userid=UserTable.getInstance().lookup(strArray[0]);
-        boolean number=isInteger("1");
-        Object result="";
+        boolean number=isNumber(strArray[1]);
         if(strArray.length!=2 || email!=true || number!=true){
-        	output.setOutput("Your input should in this format:'useremail,date'");
+        	output.setOutput("Your input should in this format:'useremail,date'"+strArray[1].length());
         	output.setState(COLLECTFINE);
         }else if(userid==-1){
         	output.setOutput("The User Does Not Exist!");
         	output.setState(COLLECTFINE);
         }else{
-        	int fine = Integer.parseInt(strArray[1]);
-        	FeeTable.getInstance().applyfee(UserTable.getInstance().lookup(strArray[0]),Long.parseLong(strArray[1]));	
-        	result=FeeTable.getInstance().lookupfee(UserTable.getInstance().lookup(strArray[0]));
-        	if(result.equals(0)){
-        		output.setOutput("Fine not applied!");
-    		}else{
-        		output.setOutput("Success!");
-        	}
+        	FeeTable.getInstance().applyfee(UserTable.getInstance().lookup(strArray[0]),Long.parseLong(strArray[1]));
+        	output.setOutput("Success!");
     		output.setState(CLERK);
     	}
         	
@@ -389,7 +382,7 @@ public class OutputHandler {
 			isNumber=false;
 		}
 		return isNumber;
-		 }
+	}
 	
 	public boolean isNumber(String value) {
 		char[] ch = value.toCharArray();
