@@ -2469,4 +2469,421 @@
 @2017-10-08 20:05:42 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
 @2017-10-08 20:05:42 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
 @2017-10-08 20:05:42 INFO  String:100 - Operation:Delete User;User Info:[test@username,testpassword];State:Success
+@2017-10-08 20:20:59 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:20:59 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:20:59 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:20:59 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:20:59 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:20:59 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:20:59,0]]
+@2017-10-08 20:20:59 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:20:59 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:20:59 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,10,2017-10-08 08:20:59];State:Success
+@2017-10-08 20:22:05 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:22:05 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:22:05 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:22:05 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:22:05 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:22:05 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:22:05,0]]
+@2017-10-08 20:22:05 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:22:05 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:22:05 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,10,2017-10-08 08:22:05];State:Success
+@2017-10-08 20:22:05 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:22:05];State:Success
+@2017-10-08 20:22:32 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:22:32 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:22:32 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:22:32 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:22:32 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:22:33 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:22:33,0]]
+@2017-10-08 20:22:33 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:22:33 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:22:33 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,11,2017-10-08 08:22:33];State:Success
+@2017-10-08 20:22:33 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:22:33];State:Success
+@2017-10-08 20:22:44 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:22:44 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:22:44 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:22:44 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:22:44 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:22:44 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:22:44,0]]
+@2017-10-08 20:22:44 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:22:44 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:22:44 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,11,2017-10-08 08:22:44];State:Success
+@2017-10-08 20:22:44 INFO  String:53 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:22:44];State:Success
+@2017-10-08 20:22:52 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:22:52 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:22:52 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:22:52 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:22:52 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:22:52,0]]
+@2017-10-08 20:22:52 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:22:52 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:22:52 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,11,2017-10-08 08:22:52];State:Success
+@2017-10-08 20:22:52 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[6,28];State:Success
+@2017-10-08 20:22:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:22:52 INFO  String:59 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:22:52];State:Fail;Reason:Outstanding Fee Exists.
+@2017-10-08 20:23:11 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:23:11 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:23:11 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:23:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:23:11 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:23:11 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:23:11 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:23:11 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:23:11,0]]
+@2017-10-08 20:23:11 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:23:11 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:23:11 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:23:11];State:Success
+@2017-10-08 20:23:11 INFO  String:63 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:23:11];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:23:11 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[6,28];State:Success
+@2017-10-08 20:23:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:23:11 INFO  String:63 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:23:11];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:24:03 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:24:03 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:24:03 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:24:03 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:24:03 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:24:03,0]]
+@2017-10-08 20:24:03 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:24:03 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:24:03 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Success
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:03 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:03];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:24:52 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:24:52 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:24:52 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:24:52 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:24:52,0]]
+@2017-10-08 20:24:52 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:24:52 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:24:52 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Success
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:24:52 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:24:52 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:24:52];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:25:30 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:25:30 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:25:30 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:25:30 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:25:30,0]]
+@2017-10-08 20:25:30 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:25:30 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:25:30 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Success
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:30 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:25:30 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:30];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:25:49 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:25:49 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:25:49 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:25:49 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:25:49,0]]
+@2017-10-08 20:25:49 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:25:49 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:25:49 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Success
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[6,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:25:49 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,21];State:Success
+@2017-10-08 20:25:49 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:25:49];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:26:40 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:26:40 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:26:40 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:26:40 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:26:41 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:26:41 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:26:41 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:26:41,0]]
+@2017-10-08 20:26:41 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:26:41 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:26:41 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:26:41];State:Success
+@2017-10-08 20:26:41 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:26:41];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:27:03 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:27:03 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:27:04 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:27:04 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:27:04 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:27:04 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:27:04,0]]
+@2017-10-08 20:27:04 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:27:04 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:27:04 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:27:04];State:Success
+@2017-10-08 20:27:04 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:27:04];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:27:10 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:27:10 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:27:10 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:27:10 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:27:11 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:27:11 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:27:11 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:27:11,0]]
+@2017-10-08 20:27:11 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:27:11 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:27:11 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:27:11];State:Success
+@2017-10-08 20:27:15 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:27:15 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:27:15 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:27:15 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:27:15 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:27:15 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:27:15,0]]
+@2017-10-08 20:27:15 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:27:15 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:27:15 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:27:15];State:Success
+@2017-10-08 20:27:15 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:27:15];State:Fail;Reason:The Item is Not Available.
+@2017-10-08 20:34:11 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-08 20:34:11 INFO  String:42 - Operation:Create New Title;Title Info:[1234567890000,Test Title 1];State:Success
+@2017-10-08 20:34:11 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,1];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,2];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,3];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,4];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,5];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,6];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,7];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,8];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,9];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,10];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,11];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,12];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,13];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,14];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,15];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,16];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,17];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,18];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,19];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New Item;Item Info:[1234567890000,20];State:Success
+@2017-10-08 20:34:11 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New User;User Info:[test@username1,testpassword];State:Success
+@2017-10-08 20:34:11 INFO  String:44 - Operation:Create New User;User Info:[test@username2,testpassword];State:Success
+@2017-10-08 20:34:11 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:34:11,0]]
+@2017-10-08 20:34:11 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:34:11 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:34:11 INFO  String:53 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:34:11];State:Success
+@2017-10-08 20:34:11 INFO  String:63 - Operation:Borrow Item;Loan Info:[5,1234567890000,1,2017-10-08 08:34:11];State:Fail;Reason:The Item is Not Available.
 @
