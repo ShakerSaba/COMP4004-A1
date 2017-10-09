@@ -2463,4 +2463,14 @@
 @2017-10-08 19:58:59 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
 @2017-10-08 19:58:59 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
 @2017-10-08 19:58:59 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[5,28];State:Success
+@2017-10-08 20:04:26 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:04:26 INFO  String:44 - Operation:Create New User;User Info:[test@username,testpassword];State:Success
+@2017-10-08 20:04:26 INFO  String:47 - Operation:Create New User;User Info:[test@username,testpassword];State:Fail;Reason:The User already existed.
+@2017-10-08 20:05:42 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-08 20:05:42 INFO  String:44 - Operation:Create New User;User Info:[test@username,testpassword];State:Success
+@2017-10-08 20:05:42 INFO  String:47 - Operation:Create New User;User Info:[test@username,testpassword];State:Fail;Reason:The User already existed.
+@2017-10-08 20:05:42 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-08 08:05:42,0]]
+@2017-10-08 20:05:42 INFO  String:99 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-08 20:05:42 INFO  String:124 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-08 20:05:42 INFO  String:100 - Operation:Delete User;User Info:[test@username,testpassword];State:Success
 @
