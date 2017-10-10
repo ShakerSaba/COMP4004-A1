@@ -34,6 +34,9 @@ public class LoanTable {
 		boolean copynumber=ItemTable.getInstance().lookup(string,string2);
 		boolean oloan=LoanTable.getInstance().lookup(i,string,string2);
 		boolean limit=LoanTable.getInstance().checkLimit(i);
+		boolean toomuch = false;
+		if(Config.MAX_BORROWED_ITEMS < Integer.parseInt(string2))
+			toomuch = true;
 		boolean fee=FeeTable.getInstance().lookup(i);
 		if(user==false){
 			result="User Invalid";
@@ -46,11 +49,14 @@ public class LoanTable {
 			logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Invalid Copynumber.", i,string,string2,dateformat(date)));
 		}else{
 			if(oloan){
-				if(limit && fee){
-				Loan loan=new Loan(i,string,string2,date,"0");
-				loanList.add(loan);
-				result="success";
-				logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Success", i,string,string2,dateformat(date)));
+				if(toomuch==true){
+					result="Cannot Loan This Many Items";
+					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Too Many Items To Take.", i,string,string2,dateformat(date)));
+				}else if(limit && fee){
+					Loan loan=new Loan(i,string,string2,date,"0");
+					loanList.add(loan);
+					result="success";
+					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Success", i,string,string2,dateformat(date)));
 				}else if(limit==false){
 					result="The Maximun Number of Items is Reached";
 					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:The Maximun Number of Items is Reached.", i,string,string2,dateformat(date)));
@@ -91,7 +97,7 @@ public class LoanTable {
 		for(int i=0;i<loanList.size();i++){
 			int userid=(loanList.get(i)).getUserid();
 			if(userid==j){
-				flag=flag+1;
+				flag=flag+Integer.parseInt(loanList.get(i).getCopynumber());
 			}else{
 				flag=flag+0;	
 			}
