@@ -50,16 +50,24 @@ public class ItemTable {
 	}
 	public boolean lookup(String string, String string2) {
 		boolean result=false;
-		int flag=itemList.size();
+		int requestednumber = Integer.parseInt(string2);
 		for(int i=itemList.size()-1;i>=0;i--){
 			String ISBN=(itemList.get(i)).getISBN();
-			String copynumber=(itemList.get(i)).getCopynumber();
-			if(ISBN.equalsIgnoreCase(string) && copynumber.equalsIgnoreCase(string2)){
-				flag=i;
-				result = true;
+			int copynumber = Integer.parseInt((itemList.get(i)).getCopynumber());
+			if(!result && ISBN.equalsIgnoreCase(string) && (copynumber >= requestednumber)){
+				System.out.println("WE GOT COPIES" + copynumber);
+				boolean taken = false;
+				for(int j=0;j < UserTable.getInstance().userList.size();j++){
+					if(!LoanTable.getInstance().lookup(j,string,string2)){
+						System.out.println("TAKEN");
+						taken = true;
+					}
+				}
+				if(!taken){
+					System.out.println("NOT TAKEN");
+					result = true;
+				}
 			}
-			if(result)
-				break;
 		}
 		return result;
 	}

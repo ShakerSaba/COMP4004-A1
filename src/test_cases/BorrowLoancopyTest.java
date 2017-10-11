@@ -25,11 +25,11 @@ public class BorrowLoancopyTest {
 			//assertEquals("Failure due to user not existing.","The User Does Not Exist!",outHan.borrow("nonexistant@username,1234567890000,1").getOutput());
 			
 			//for(int i=0;i<2;++i)
-			assertEquals("Borrow books.","Success!",outHan.borrow("test@username1,1234567890000,3").getOutput());
+			assertEquals("Borrow books.","Success!",outHan.borrow("test@username1,1234567890000,1").getOutput());
 			//int listsize = ItemTable.getInstance().getItemTable().size();
 			//String finalcopies = ItemTable.getInstance().getItemTable().get(listsize-1).getCopynumber();
 			assertEquals("Borrow books.","Success!",outHan.borrow("test@username2,1234567890000,1").getOutput());
-			assertEquals("Borrow books.","Success!",outHan.borrow("test@username2,1234567890000,1").getOutput());
+			assertEquals("Borrow books.","Success!",outHan.borrow("test@username2,1234567890000,2").getOutput());
 			//assertEquals("Failure due to missing item.","The Item is Not Available!",outHan.borrow("test@username2,1234567890000,1").getOutput());
 			//assertEquals("Failure due to reaching borrow limit.","The Maximun Number of Items is Reached!",outHan.borrow("test@username1,1234567890000,1").getOutput());
 			//outHan.collectFine("test@username2,2000000");
